@@ -10,6 +10,13 @@ const config: Config = {
     "./public/**/*.html",
   ],
   theme: {
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'system-ui',],
+      'serif': ['ui-serif', 'Georgia', ],
+      'mono': ['ui-monospace', 'SFMono-Regular',],
+      'display': ['Oswald', ],
+      'body': ['"Open Sans"', ],
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
